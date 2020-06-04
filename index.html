@@ -71,6 +71,7 @@
 								<h3 class="text-uppercase resume-section-heading mb-4">工作经验</h3>
 								
 								<div class="item mb-3">
+									
 									<div class="item-heading row align-items-center mb-2">
 										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">后端开发工程师</h4>
 										<div class="item-meta col-12 col-md-6 col-lg-12 text-muted text-left text-md-right">中科天玑数据科技股份有限公司 | 2019.7-至今</div>
@@ -91,9 +92,14 @@
 												<p>项目描述：相关部门希望我们部门可以提供一套系统对部分企业进行查询、统计、分析，判断该企业或关联企业是否有问题风险或异常风险；数据来源为天眼查数据采集、数据文件导入，主要是对其企业本身和关联企业的涉诉、风险、投资人、股东等信息分析判断该企业是否出现问题或风险项，对于概要和统计信息我们存储到MySQL数据库中，同时使用MySQL的定时器定时更新统计表，在于外部数据对接时，使用kafka同步数据，保证数据及时性</p>
 											</li>
 											<li>
-												<p><span class="item-meta col-12 col-md-6 col-lg-12 text-muted text-left text-md-left">项目时间：2019.10-至今</span>				<span class="item-meta col-12 col-md-6 col-lg-12 text-muted text-left text-md-right">项目名称：虚拟货币采集</span></p>
+												<p><span class="item-meta col-12 col-md-6 col-lg-12 text-muted text-left text-md-left">项目时间：2019.10-2020.01</span>				<span class="item-meta col-12 col-md-6 col-lg-12 text-muted text-left text-md-right">项目名称：虚拟货币采集</span></p>
 												<p>项目描述：相关部门希望我们部门可以提供一套系统对虚拟货币平台进行采集、查询、统计、分析，进行实时监控了解；通过采集虚拟货币行情、平台、钱包、币种、板块、交易信息以及虚拟货币兑货币汇率，在采集上，我们同样适用xxl-job分布式定时调度任务来定时爬取采集，对同的数据采用不同的定时调度任务，在采集策略上我们遵循先是使用目录生成url，分派于队列中，指派多个服务、多个线程执行，将非及时性重要性数据放置于kafka，批量化取出后再批量存储至es中，对于及时性调用数据我们存储至redis，保证数据存储和取出的及时性</p>
 											</li>
+											<li>
+												<p><span class="item-meta col-12 col-md-6 col-lg-12 text-muted text-left text-md-left">项目时间：2020.01-2020.02</span>				<span class="item-meta col-12 col-md-6 col-lg-12 text-muted text-left text-md-right">项目名称：股权融资</span></p>
+												<p>项目描述：接收公司整理的excel数据文档，使用POI依赖提供的工具类分析读取相关信息进行存储，主要展示目标公司相关工商信息，如融资、股权结构、风险异常信息等，对融资项进行统计分析，设计相关审核、上报、确认等相关流程走向</p>
+											</li>
+											
 										</ul>
 									</div>
 									
@@ -131,12 +137,12 @@
 								<h3 class="text-uppercase resume-section-heading mb-4">技能</h3>
 								<div class="item">
 									<ul class="list-unstyled resume-skills-list">
-										<li class="mb-2">Java/SpringBoot/SpringCloud</li>
+										<li class="mb-2">Java/J2EE/SpringBoot/SpringCloud</li>
 										<li class="mb-2">Docker/K8S<li>
-										<li class="mb-2">MySQL/Redis/MongoDB/Elastic/Kafka</li>
+										<li class="mb-2">MySQL/Redis/MongoDB/Elastic/Kafka等</li>
 										<li class="mb-2">Python基础语法/Django/机器学习简单了解</li>
-										<li class="mb-2">Git/GitHub/GitLab</li>
 										<li class="mb-2">GO基础语法/gin基础搭建</li>
+										<li class="mb-2">Git/GitHub/GitLab</li>
 										<li class="mb-2">Veu/HMTL/CSS/JavaScript</li>
 										<li class="mb-2">Maven Nexus/Jenkins</li>
 										<li class="mb-2">了解分布式调度应用/zookeeper</li>
