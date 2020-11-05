@@ -107,7 +107,11 @@
 											
 											<li>
 												<p><span class="item-meta col-12 col-md-6 col-lg-12 text-muted text-left text-md-left">项目时间：2020.05-2020.08</span>				<span class="item-meta col-12 col-md-6 col-lg-12 text-muted text-left text-md-right">项目名称：全国-福建-前海协同联动系统</span></p>
-												<p>项目描述：相关部门希望我们部门可以提供一套系统实现国家与地方之间的协同联动，对企业相关的风险、案件、举报进行流程化处理，上级对下级部门存在下发、驳回等操作，下级对上级有上报、反馈等操作，以及同级之间的协查、核查；系统的主要架构是SpringBoot，及时性调用数据我们存储至redis，保证数据存储和取出的及时性，如token信息、省市区国家单位等实时性信息，一些工商企业信息我们根据业务需求分为es数据查询或者天眼查即时数据查询，文件系统我们采用Minio，在不同不同地方系统间我们使用kafka大批量同步数据，使用libreoffice7.0将office文件转为PDF实现预览功能</p>
+												<p>项目描述：相关部门希望我们部门可以提供一套系统实现国家与地方之间的协同联动，对企业相关的风险、案件、举报进行流程化处理，上级对下级部门存在下发、驳回等操作，下级对上级有上报、反馈等操作，以及同级之间的协查、核查；系统的主要架构是SpringBoot，即时性调用数据我们存储至redis，保证数据存储和取出的及时性，如token信息、省市区国家单位等实时性信息，一些工商企业信息我们根据业务需求分为es数据查询或者天眼查即时数据查询，文件系统我们采用Minio，在不同不同地方系统间我们使用kafka大批量同步数据，使用libreoffice7.0将office文件转为PDF实现预览功能</p>
+											</li>
+											<li>
+												<p><span class="item-meta col-12 col-md-6 col-lg-12 text-muted text-left text-md-left">项目时间：2020.08-2020.11</span>				<span class="item-meta col-12 col-md-6 col-lg-12 text-muted text-left text-md-right">项目名称：金融数据中心系统</span></p>
+												<p>项目描述：整合项目通用数据来源，集中管理Elastic、MongoDB大数据存储和MySQL关系型数据库存储，文件分类存储，kafka数据同步，统一数据入库入口和查询出口，并提供天眼查、部分汇率及时查询接口；系统的主要架构是SpringCloud，Elastic主要存储来自天眼查的工商信息、风险信息、历史信息和日志数据，MySQL主要存储数据字典和从Elastic同步策略中的热点企业信息，即时数据存储至Redis，如部分货币汇率、数据处理队列等，与其它系统同步大批量数据时使用kafka，批量化生产消费</p>
 											</li>
 										</ul>
 									</div>
